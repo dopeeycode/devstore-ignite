@@ -9,7 +9,7 @@ const StoreLayout = ({ children }: { children: ReactNode }) => {
     >
       <Header />
 
-      <main>{children}</main>
+      {children}
     </div>
   )
 }
