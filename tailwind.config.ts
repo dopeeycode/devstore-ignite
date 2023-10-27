@@ -10,6 +10,9 @@ const config: Config = {
     fontFamily: {
       sans: 'var(--font-spaceGrotesk)',
     },
+    gridTemplateRows: {
+      app: 'min-content max-content',
+    },
   },
   plugins: [],
 }
